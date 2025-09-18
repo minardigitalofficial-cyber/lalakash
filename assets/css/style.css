@@ -1642,8 +1642,9 @@ textarea:focus {
 
 .blog_title {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .btn-blog {
@@ -1660,7 +1661,7 @@ textarea:focus {
 }
 
 .blog-desc {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2;
 }
 
