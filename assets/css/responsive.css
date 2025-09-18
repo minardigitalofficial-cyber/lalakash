@@ -7,121 +7,122 @@
 *******************************************************/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.home-area .home-content h1 {
-		font-size: 55px;
-	}
-	.home-area {
-		padding-top: 170px;
-		padding-bottom: 40px;
-	}
-	.about-image {
-		text-align: center;
-		margin-top: 30px;
-	}
-	.tab .tabs li {
-		margin: 0 20px;
-	}
-	.contact-box-info-wrapper {
-		margin-bottom: 50px;
-	}
-	.form-container-box {
-		margin-left: 0;
-	}
+  .home-area .home-content h1 {
+    font-size: 55px;
+  }
+  .home-area {
+    padding-top: 170px;
+    padding-bottom: 40px;
+  }
+  .about-image {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .tab .tabs li {
+    margin: 0 20px;
+  }
+  .contact-box-info-wrapper {
+    margin-bottom: 50px;
+  }
+  .form-container-box {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	.section-title h2 {
-		font-size: 30px;
-	}
-	.header-navber-area .nav-top-bar {
-		display: none;
-	}
-	#navbarDefault {
-		width: 100%;
-		height: 250px;
-		overflow-y: scroll;
-	}
-	.home-area {
-		padding-top: 130px;
-	}
-	.home-area .home-content h1 {
-		font-size: 45px;
-	}
-	.home-area .home-content p {
-		padding: 0 10px;
-	}
-	.about-content h2{
-		font-size: 30px;
-	}
-	.menu-day-product-content .menu-day-tab-list li {
-		padding: 10px 15px;
-		margin: 15px 0;
-		border: 0;
-	}
-	.menu-day-product-content .menu-day-tab-list li a {
-		font-size: 16px;
-	}
-	.reservation-area h2 {
-		font-size: 35px;
-		margin-bottom: 0;
-	}
-	.contact-box-info-wrapper {
-		margin-bottom: 50px;
-	}
-	.form-container-box {
-		margin-left: 0;
-		padding: 25px 15px;
-	}
-	.footer-area {
-		text-align: center;
-	}
-	.footer-area .footer-link ul {
-		margin-top: 10px;
-		text-align: center;
-		list-style-type: none;
-	}
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .header-navber-area .nav-top-bar {
+    display: none;
+  }
+  #navbarDefault {
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+  }
+  .home-area {
+    padding-top: 130px;
+  }
+  .home-area .home-content h1 {
+    font-size: 45px;
+  }
+  .home-area .home-content p {
+    padding: 0 10px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .menu-day-product-content .menu-day-tab-list li {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: 0;
+  }
+  .menu-day-product-content .menu-day-tab-list li a {
+    font-size: 16px;
+  }
+  .reservation-area h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .contact-box-info-wrapper {
+    margin-bottom: 50px;
+  }
+  .form-container-box {
+    margin-left: 0;
+    padding: 25px 15px;
+  }
+  .footer-area {
+    text-align: center;
+  }
+  .footer-area .footer-link ul {
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .readMoreContent {
+    padding-top: 60px;
+  }
 }
 
-
 @media only screen and (max-width: 479px) {
-	.section-title h2 {
-		font-size: 30px;
-	}
-	.navbar-nav {
-		margin-top: 15px;
-	}
-	.navbar-b .nav-item {
-		margin-bottom: 10px;
-	}
-	.navbar-b .nav-item:last-child {
-		margin-bottom: 0px;
-	}
-	.home-area .home-content h1 {
-		font-size: 50px;
-	}
-	.about-content h2{
-		font-size: 30px;
-	}
-	.reservation-area h2 {
-		font-size: 35px;
-		margin-bottom: 0;
-	}
-	.contact-box-info-wrapper {
-		margin-bottom: 50px;
-	}
-	.form-container-box {
-		margin-left: 0;
-		padding: 25px 15px;
-	}
-	.footer-area {
-		text-align: center;
-	}
-	.footer-area .footer-link ul {
-		margin-top: 10px;
-		text-align: center;
-		list-style-type: none;
-	}
-
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .navbar-b .nav-item {
+    margin-bottom: 10px;
+  }
+  .navbar-b .nav-item:last-child {
+    margin-bottom: 0px;
+  }
+  .home-area .home-content h1 {
+    font-size: 50px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .reservation-area h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .contact-box-info-wrapper {
+    margin-bottom: 50px;
+  }
+  .form-container-box {
+    margin-left: 0;
+    padding: 25px 15px;
+  }
+  .footer-area {
+    text-align: center;
+  }
+  .footer-area .footer-link ul {
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+  }
 }
 /* Hide iframe map on screens smaller than 768px */
 @media only screen and (max-width: 767px) {
@@ -130,57 +131,54 @@
   }
 }
 
-
-
-@media screen and (max-width: 320px) and (min-width: 0px){
-	.section-title h2 {
-		font-size: 30px;
-	}
-	.navbar-nav {
-		margin-top: 15px;
-	}
-	.navbar-b .nav-item {
-		margin-bottom: 10px;
-	}
-	.navbar-b .nav-item:last-child {
-		margin-bottom: 0px;
-	}
-	#navbarDefault {
-		width: 100%;
-		height: auto;
-		overflow-y: scroll;
-	}
-	.home-area .home-content {
-		margin-bottom: 30px;
-		text-align: center;
-	}
-	.home-area {
-		padding-top: 110px;
-	}
-	.home-area .home-content h1 {
-		font-size: 40px;
-	}
-	.about-content h2{
-		font-size: 30px;
-	}
-	.reservation-area h2 {
-		font-size: 35px;
-		margin-bottom: 0;
-	}
-	.contact-box-info-wrapper {
-		margin-bottom: 50px;
-	}
-	.form-container-box {
-		margin-left: 0;
-		padding: 25px 15px;
-	}
-	.footer-area {
-		text-align: center;
-	}
-	.footer-area .footer-link ul {
-		margin-top: 10px;
-		text-align: center;
-		list-style-type: none;
-	}
-	
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .navbar-b .nav-item {
+    margin-bottom: 10px;
+  }
+  .navbar-b .nav-item:last-child {
+    margin-bottom: 0px;
+  }
+  #navbarDefault {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+  }
+  .home-area .home-content {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .home-area {
+    padding-top: 110px;
+  }
+  .home-area .home-content h1 {
+    font-size: 40px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .reservation-area h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .contact-box-info-wrapper {
+    margin-bottom: 50px;
+  }
+  .form-container-box {
+    margin-left: 0;
+    padding: 25px 15px;
+  }
+  .footer-area {
+    text-align: center;
+  }
+  .footer-area .footer-link ul {
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+  }
 }

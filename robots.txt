@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.lalakashcheam.co.uk/sitemap.xml

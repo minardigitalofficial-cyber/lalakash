@@ -189,24 +189,26 @@
     <!-- End Header Navbar Area -->
 
     <!-- Blogs section start here  -->
-    <div class="container text-center" style="margin-top: 150px">
+    <section class="container text-center" style="margin-top: 150px">
       <div class="container mt-5">
         <div>
           <div class="blog-details-body">
             <div>
-              <img
-                src="../assets/img/blog/blog1.jpg"
-                class="card-img-top blogDetails_img"
-                alt="Blog 1"
-              />
-              <div class="card-body">
+              <div class="image_container">
+                <img
+                  src="../assets/img/blog/blog2.jpg"
+                  class="card-img-top blogDetails_img"
+                  alt="Blog 1"
+                />
+              </div>
+              <div class="">
                 <h5 class="blog_title" style="font-family: Fondamento, cursive">
                   Card title
                 </h5>
                 <p class="card-subtitle text-muted mb-2 small">
                   By John Doe · Sep 17, 2025
                 </p>
-                <p class="card-text lead blog-desc">
+                <p class="card-text lead blog-desc" style="text-align: justify">
                   Some quick example text to build on the card title and make up
                   the bulk of the card’s content. Lorem ipsum dolor sit amet
                   consectetur, adipisicing elit. At eveniet eaque quas est sunt,
@@ -253,8 +255,101 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Blogs section ends here  -->
+
+    <!-- Social Section Starts Here  -->
+
+    <section id="social_section">
+      <div class="container mx-auto">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>Lal Akash</div>
+          <div>
+            <ul class="d-flex list-unstyled mb-0">
+              <li class="px-1">
+                <a href="#">
+                  <i
+                    class="fa fa-facebook-square blog_icons"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
+              <li class="px-1">
+                <a href="#">
+                  <i class="fa fa-instagram blog_icons" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="px-1">
+                <a href="#">
+                  <i
+                    class="fa fa-twitter-square blog_icons"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="readMoreContent">
+          <h3 class="text-center blog_heading">You May Read Also</h3>
+
+          <div
+            style="
+              max-width: 900px;
+              max-width: 600px;
+              margin-inline: auto;
+              padding-block: 40px;
+            "
+          >
+            <div class="row">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="../assets/img/blog/blog1.jpg"
+                    class="card-img-top blog_img"
+                    alt="Blog 1"
+                  />
+                  <div class="card-body">
+                    <h5 class="blog_title">Card title</h5>
+
+                    <p class="card-text lead blog-desc">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card’s content.
+                    </p>
+                    <a href="./blogs/blogpage1.html" class="btn btn-blog"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Repeat for other cards -->
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="../assets/img/blog/blog2.jpg"
+                    class="card-img-top blog_img"
+                    alt="Blog 2"
+                  />
+                  <div class="card-body">
+                    <h5 class="blog_title">Card title</h5>
+                    <p class="card-text blog-desc">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-blog">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Section Starts Here  -->
 
     <!-- Start Footer Section -->
     <footer class="footer-area">
