@@ -124,11 +124,10 @@ button:focus {
   text-transform: capitalize;
   letter-spacing: 0.7px;
   font-weight: 600;
-  border: 2px solid #e03f25;
-  background: transparent;
+  background: #e03f25;
   border-radius: 30px;
   cursor: pointer;
-  color: #e03f25;
+  color: #fff;
   margin-top: 25px;
   overflow: hidden;
   white-space: nowrap;
@@ -140,7 +139,7 @@ button:focus {
 .button:hover {
   color: #fff;
 }
-.button:before,
+
 .button:after {
   content: "";
   width: 0;
@@ -160,14 +159,11 @@ button:focus {
   background: #febe10;
   opacity: 1;
 }
-.button:hover:before,
+
 .button:hover:after {
   width: 100%;
 }
-.button:hover:after {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
+
 .bg-gray {
   background-color: #f8f8f9;
 }
@@ -846,18 +842,28 @@ h5 {
 
 .home-content .button {
   box-shadow: none;
+  margin-inline: 10px;
 }
 
 .home-btn:hover {
   color: #000;
   background: transparent;
-  border: 2px solid #ffffff;
 }
 .home-btn::before {
   background-color: #fff;
 }
 .home-btn::after {
   background-color: #fff;
+}
+.home-btn2 {
+  background-color: #fff;
+  color: #000;
+}
+.home-btn2:hover {
+  color: #fff;
+}
+.home-btn2::after {
+  background-color: #e03f25;
 }
 
 /**************************************
