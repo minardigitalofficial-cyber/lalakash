@@ -16,7 +16,7 @@
   vertical-align: middle;
 }
 .hover_bkgr_fricc > div {
-  background-color: #e03f25;
+  background-color: #212446;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   display: inline-block;
   height: auto;
@@ -31,7 +31,10 @@
 .hover_bkgr_fricc > div * {
   color: #fff;
 }
-.hover_bkgr_fricc > div > h4 {
+.hover_bkgr_fricc > div > h1 {
+  font-size: 32px;
+}
+.hover_bkgr_fricc > div > h2 {
   font-size: 20px;
   margin-top: 10px;
 }

@@ -864,7 +864,10 @@ h5 {
  * 05.About Section Style
  *************************************/
 
-.about-area {
+.about-content-text h1 {
+  font-size: 30px;
+  color: #e03f25;
+  font-family: "Cookie", cursive;
 }
 .about-content h2 {
   font-size: 38px;
@@ -1052,6 +1055,11 @@ h5 {
   z-index: -1;
 }
 
+.reservation-area h1 {
+  font-size: 30px;
+  color: #e03f25;
+  font-family: "Cookie", cursive;
+}
 .reservation-area h2 {
   color: #ffffff;
   font-size: 50px;
@@ -1719,8 +1727,8 @@ textarea:focus {
   justify-content: center;
   margin-top: 20px;
 }
-.widget-2 h4,
-.widget-3 h4 {
+.widget-2 h1,
+.widget-3 h1 {
   font-size: 20px;
   color: #fff;
   margin-bottom: 20px;
