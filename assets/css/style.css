@@ -28,8 +28,6 @@
  * 01. Generale Style
  *************************************/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 body {
   background: #ffffff;
   color: #333;
@@ -256,7 +254,7 @@ h5 {
 .back-to-top {
   position: fixed;
   cursor: pointer;
-  top: 0;
+  bottom: 0;
   right: 15px;
   color: #ffffff;
   background: #fbc31b;
@@ -267,8 +265,10 @@ h5 {
   line-height: 42px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .back-to-top:before {
   content: "";
@@ -281,22 +281,23 @@ h5 {
   background: #ffc518;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .back-to-top:hover:before,
 .back-to-top:focus:before {
   opacity: 1;
   visibility: visible;
+  background-color: #e03f25;
 }
 .back-to-top:hover,
 .back-to-top:focus {
   color: #ffffff;
 }
 .back-to-top.active {
-  top: 85%;
-  -webkit-transform: translateY(-98%);
-  transform: translateY(-98%);
+  bottom: 30px;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
   opacity: 1;
   visibility: visible;
 }
@@ -558,30 +559,32 @@ h5 {
 }
 
 .header-navber-area .nav-top-bar {
-  background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.header-navber-area .nav-top-bar .call-to-action p {
+.header-navber-area .nav-top-bar .call-to-action address {
   margin: 0 13px 0 0;
   display: inline-block;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
 }
 
-.header-navber-area .nav-top-bar .call-to-action p i {
+.header-navber-area .nav-top-bar .call-to-action address i {
   margin-right: 3px;
   font-size: 16px;
 }
 
-.header-navber-area .nav-top-bar .call-to-action p a {
+.header-navber-area .nav-top-bar .call-to-action address a {
   color: #ffffff;
 }
 
-.header-navber-area .nav-top-bar .call-to-action p a:hover,
-.header-navber-area .nav-top-bar .call-to-action p a:focus {
+.header-navber-area .nav-top-bar .call-to-action address a:hover,
+.header-navber-area .nav-top-bar .call-to-action address a:focus {
   color: #ffc107;
 }
 
@@ -608,13 +611,15 @@ h5 {
 }
 
 .header-navber-area .nav-top-bar .opening-hours {
-  float: right;
+  text-align: right;
 }
 
 .header-navber-area .nav-top-bar .opening-hours p {
-  font-size: 13px;
+  font-size: 12px;
   color: #ffffff;
   margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
 }
 
 .header-navber-area .nav-top-bar .opening-hours p i {
@@ -637,7 +642,7 @@ h5 {
 
 .navbar-b {
   transition: all 0.5s ease-in-out;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -1632,6 +1637,161 @@ textarea:focus {
 }
 
 /**************************************
+ * 13.Footer Section Style
+ *************************************/
+
+.footer-area {
+  background-color: #0f1017;
+}
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-block: 15px;
+}
+.footer-copyright-text p {
+  color: #fff;
+}
+.footer-area .footer-link ul {
+  text-align: right;
+  list-style-type: none;
+}
+.footer-area .footer-link ul li {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+}
+.footer-area .footer-link ul li a {
+  color: #ffffff;
+}
+
+.footer-area .footer-link ul li:first-child {
+  padding-left: 0;
+}
+.footer-area .footer-link ul li::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  background: #cccccc;
+  width: 2px;
+  height: 14px;
+}
+.footer-area ul li:first-child::before {
+  display: none;
+}
+.widget-area {
+  padding-block: 80px;
+}
+.widget-1 > p {
+  color: #ccc;
+  margin-block: 20px;
+  font-size: 16px;
+}
+.widget-1 .follow-us {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.widget-1 .follow-us a {
+  color: #ccc;
+  font-size: 20px;
+  line-height: 1;
+  transition: 0.3s ease-in-out;
+  fill: #ccc;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.widget-1 .follow-us a svg {
+  width: 20px;
+}
+.widget-1 .follow-us a:hover {
+  background-color: #ff4d15;
+  border-color: #ff4d15;
+}
+.widget-2,
+.widget-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.widget-2 h4,
+.widget-3 h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.widget-2 ul li {
+  margin-block: 10px;
+}
+.widget-2 ul li a {
+  color: #ccc;
+}
+.widget-2 ul li a:hover {
+  color: #ff4d15;
+}
+.widget-3 address {
+  color: #ccc;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+}
+.widget-3 .opening-hours p {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.widget-3 .opening-hours p i {
+  margin-top: 5px;
+}
+.widget-3 .call-to-action address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Privacy Policy */
+.privacy-policy p {
+  font-size: 16px;
+  margin-block: 10px;
+}
+.privacy-policy h3 {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.privacy-policy ul li {
+  list-style: disc;
+  font-family: "Mukta", sans-serif;
+  margin-left: 40px;
+  font-size: 16px;
+  margin-block: 10px;
+}
+.privacy-policy address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Mukta", sans-serif;
+}
+.privacy-policy address a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  transition: 0.3s ease-in-out;
+  font-family: "Mukta", sans-serif;
+}
+
+.privacy-policy address a:hover {
+  color: #ff4d15;
+}
+/**************************************
  * 13.Blog Section Style
  *************************************/
 .blog_img {
@@ -1721,44 +1881,4 @@ textarea:focus {
 .blogcard_shadow {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: none !important;
-}
-
-/**************************************
- * 14.Footer Section Style
- *************************************/
-
-.footer-area {
-  padding: 30px 0;
-  background-color: #0f1017;
-}
-.footer-copyright-text p {
-  color: #fff;
-}
-.footer-area .footer-link ul {
-  text-align: right;
-  list-style-type: none;
-}
-.footer-area .footer-link ul li {
-  display: inline-block;
-  position: relative;
-  padding-left: 20px;
-}
-.footer-area .footer-link ul li a {
-  color: #ffffff;
-}
-
-.footer-area .footer-link ul li:first-child {
-  padding-left: 0;
-}
-.footer-area .footer-link ul li::before {
-  content: "";
-  position: absolute;
-  left: 7px;
-  top: 5px;
-  background: #cccccc;
-  width: 2px;
-  height: 14px;
-}
-.footer-area ul li:first-child::before {
-  display: none;
 }

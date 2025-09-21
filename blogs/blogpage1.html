@@ -98,21 +98,25 @@
   <body>
     <!-- Start Header Navbar Area -->
     <header class="header-navber-area">
-      <nav class="navbar navbar-b navbar-trans navbar-expand-lg" id="mainNav">
+      <nav
+        class="navbar navbar-b navbar-reduce navbar-expand-lg"
+        style="
+          background-color: white;
+          box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+        "
+      >
         <div class="container">
           <a class="navbar-brand js-scroll" href="index.html">
             <img
               src="../assets/img/logo.png"
               class="white-logo"
-              width="100px"
-              height="80px"
+              width="80px"
               alt="logo"
             />
             <img
               src="../assets/img/logo.png"
               class="black-logo"
-              width="100px"
-              height="80px"
+              width="80px"
               alt="logo"
             />
           </a>
@@ -125,7 +129,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span></span> <span></span> <span></span>
+            <span style="background-color: black"></span>
+            <span style="background-color: black"></span>
+            <span style="background-color: black"></span>
           </button>
           <div
             class="navbar-collapse collapse justify-content-end"
@@ -135,49 +141,51 @@
               <li class="nav-item">
                 <a
                   class="nav-link js-scroll active"
-                  style="color: #000"
                   href="/"
+                  style="color: black"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  style="color: #000"
                   class="nav-link js-scroll active"
                   href="https://app.lalakashcheam.co.uk"
+                  style="color: black"
                   >Order Online</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  style="color: #000"
                   class="nav-link js-scroll active"
                   href="https://app.lalakashcheam.co.uk/#!/reservation"
+                  style="color: black"
                   >Reservation</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link js-scroll" style="color: #000" href="#about"
+                <a class="nav-link js-scroll" href="/" style="color: black"
                   >About</a
                 >
               </li>
 
               <li class="nav-item">
+                <a class="nav-link js-scroll" href="/" style="color: black"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item">
                 <a
                   class="nav-link js-scroll"
-                  style="color: #000"
-                  href="#gallery"
-                  >Gallery</a
+                  href="/blogs.html"
+                  style="color: black"
+                  >Blog</a
                 >
               </li>
               <!---  <li class="nav-item"><a class="nav-link js-scroll" href="#">Menu</a></li> -->
 
               <li class="nav-item">
-                <a
-                  class="nav-link js-scroll"
-                  style="color: #000"
-                  href="#contact"
+                <a class="nav-link js-scroll" href="/" style="color: black"
                   >Contact</a
                 >
               </li>
@@ -351,34 +359,127 @@
         </div>
       </div>
     </section>
+    <div class="map-desktop-only">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.5329091624853!2d-0.21854002338895676!3d51.3564991717793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760823571e16e9%3A0xd9047552302dab13!2sLal%20Akash!5e0!3m2!1sen!2suk!4v1741125584735!5m2!1sen!2suk"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
+    </div>
 
     <!-- Social Section Starts Here  -->
 
     <!-- Start Footer Section -->
     <footer class="footer-area">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="footer-copyright-text">
-              <p>LAL AKASH © 2025</p>
+        <div class="row widget-area">
+          <div class="col-md-4">
+            <div class="widget-1">
+              <img src="../assets/img/logo.png" alt="Logo" width="150px" />
+              <p>
+                <strong style="font-weight: 500"
+                  >Experience Authentic Indian Dish In Best Restaurant In
+                  Sutton</strong
+                >
+                -
+                <em>fresh, family-friendly dining made with passion.</em>
+              </p>
+              <div class="follow-us">
+                <a href="https://www.facebook.com/cheamlalakash/?locale=en_GB"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M357.2 48L427.8 48 273.6 224.2 455 464 313 464 201.7 318.6 74.5 464 3.8 464 168.7 275.5-5.2 48 140.4 48 240.9 180.9 357.2 48zM332.4 421.8l39.1 0-252.4-333.8-42 0 255.3 333.8z"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="footer-link">
-              <ul>
-                <li><a href="#about">About Us</a></li>
-                <li>
-                  <a href="https://app.lalakashcheam.co.uk">Order Online</a>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#gallery">Food Gallery</a></li>
-                <!--   <li><a href="#">Terms &amp; Conditions</a></li> -->
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
+          <div class="col-md-4">
+            <div class="widget-2">
+              <div>
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="https://app.lalakashcheam.co.uk">Order</a></li>
+                  <li>
+                    <a href="https://app.lalakashcheam.co.uk/#!/reservation"
+                      >Reservation</a
+                    >
+                  </li>
+                  <li><a href="/">About</a></li>
+                  <li><a href="/">Gallery</a></li>
+                  <li><a href="/blogs.html">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="widget-3">
+              <div>
+                <h4>Contact Info</h4>
+                <address>Address:- 49-51 Station Way, Sutton SM3 8SD</address>
+                <div class="opening-hours">
+                  <p>
+                    <i class="icofont-wall-clock"></i>Opening Hours:MON-SAT:5pm
+                    -11pm & SUN: 5pm-10pm
+                  </p>
+                </div>
+                <div class="call-to-action">
+                  <address>
+                    <i class="icofont-envelope"></i>
+                    <a href="mailto:info@lalakashcheam.co.uk"
+                      >info@lalakashcheam.co.uk</a
+                    >
+                  </address>
+                  <address>
+                    <i class="icofont-phone"></i>
+                    <a href="tel:0208 652 7552">0208 652 7552</a>
+                  </address>
+                </div>
+                <p></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-copyright-text">
+                <p>LAL AKASH © 2025</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-link">
+                <ul>
+                  <!-- <li><a href="#about">About Us</a></li>
+                <li>
+                  <a href="https://app.lalakashcheam.co.uk">Order Online</a>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Food Gallery</a></li> -->
+                  <li>
+                    <a href="/termsandcondition.html">Terms &amp; Conditions</a>
+                  </li>
+                  <li><a href="/privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
     <!-- End Footer Section -->
 

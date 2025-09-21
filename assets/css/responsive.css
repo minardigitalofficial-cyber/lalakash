@@ -129,6 +129,48 @@
   .map-desktop-only {
     display: none;
   }
+  .hover_bkgr_fricc > div {
+    padding: 30px 15px;
+  }
+  .hover_bkgr_fricc > div > h2 {
+    font-size: 22px;
+  }
+  .hover_bkgr_fricc > div > h4 {
+    font-size: 18px;
+  }
+  .hover_bkgr_fricc > div > .dish1,
+  .hover_bkgr_fricc > div > .dish2 {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+  .hover_bkgr_fricc > div > h3 {
+    font-size: 24px;
+  }
+  .hover_bkgr_fricc > div span {
+    font-size: 14px;
+  }
+  .widget-area {
+    padding-block: 40px;
+  }
+  .widget-1 .follow-us {
+    justify-content: center;
+  }
+  .widget-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .widget-2 ul li {
+    margin: 0;
+  }
+  .widget-3 {
+    text-align: center;
+  }
+  .widget-3 .call-to-action address {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 320px) and (min-width: 0px) {

@@ -1,60 +1,89 @@
 /*popup begin */
-.hover_bkgr_fricc{
-    background:rgba(0,0,0,.4);
-    cursor:pointer;
-    display:none;
-    height:100%;
-    position:fixed;
-    text-align:center;
-    top:0;
-    width:100%;
-    z-index:10000;
+.hover_bkgr_fricc {
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
 }
-.hover_bkgr_fricc .helper{
-    display:inline-block;
-    height:100%;
-    vertical-align:middle;
+.hover_bkgr_fricc .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 .hover_bkgr_fricc > div {
-    background-color: rgb(33, 36, 70);
-    box-shadow: 10px 10px 40px #555;
-    display: inline-block;
-    height: auto;
-    max-width: 651px;
-    min-height: 100px;
-    vertical-align: middle;
-    width: 80%;
-    position: relative;
-    border-radius: 8px;
-    padding: 10px 2%;
+  background-color: #e03f25;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  height: auto;
+  max-width: 651px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 80%;
+  position: relative;
+  border-radius: 8px;
+  padding: 40px 2%;
+}
+.hover_bkgr_fricc > div * {
+  color: #fff;
+}
+.hover_bkgr_fricc > div > h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hover_bkgr_fricc > div > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #ffd700;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+.hover_bkgr_fricc > div > .dish1,
+.hover_bkgr_fricc > div > .dish2 {
+  font-size: 18px;
+  margin-block: 20px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.hover_bkgr_fricc > div span {
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
 }
 .popupCloseButton {
-    background-color: #fff;
-    border: 3px solid #999;
-    border-radius: 50px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: arial;
-    font-weight: bold;
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    font-size: 25px;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #333 !important;
 }
 .popupCloseButton:hover {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 .trigger_popup_fricc {
-    cursor: pointer;
-    font-size: 20px;
-    margin: 20px;
-    display: inline-block;
-    font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
 }
 /* Popup box BEGIN */
-
-
