@@ -885,6 +885,13 @@ h5 {
 }
 .about-content-text .button {
   margin-top: 10px;
+  background-color: rgba(224, 62, 37, 0.5);
+}
+.about-content-text .button:hover {
+  background-color: rgba(224, 62, 37, 1);
+}
+.about-content-text .button::after {
+  display: none;
 }
 .about-image-wrapper img {
   border-radius: 3px;
@@ -1614,6 +1621,16 @@ h5 {
 }
 #contact-form .button {
   margin: 0;
+}
+#contact-form .button {
+  margin-top: 10px;
+  background-color: rgba(224, 62, 37, 0.5);
+}
+#contact-form .button:hover {
+  background-color: rgba(224, 62, 37, 1);
+}
+#contact-form .button::after {
+  display: none;
 }
 .form-group {
   margin-bottom: 25px;
