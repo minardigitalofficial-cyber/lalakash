@@ -124,7 +124,7 @@ button:focus {
   text-transform: capitalize;
   letter-spacing: 0.7px;
   font-weight: 600;
-  background: #e03f25;
+  background: #c12717;
   border-radius: 30px;
   cursor: pointer;
   color: #fff;
@@ -883,7 +883,7 @@ h5 {
 .about-content-text p {
   margin-bottom: 15px;
 }
-.about-content-text .button {
+/* .about-content-text .button {
   margin-top: 10px;
   background-color: rgba(224, 62, 37, 0.5);
 }
@@ -892,7 +892,7 @@ h5 {
 }
 .about-content-text .button::after {
   display: none;
-}
+} */
 .about-image-wrapper img {
   border-radius: 3px;
 }
@@ -1622,7 +1622,7 @@ h5 {
 #contact-form .button {
   margin: 0;
 }
-#contact-form .button {
+/* #contact-form .button {
   margin-top: 10px;
   background-color: rgba(224, 62, 37, 0.5);
 }
@@ -1631,7 +1631,7 @@ h5 {
 }
 #contact-form .button::after {
   display: none;
-}
+} */
 .form-group {
   margin-bottom: 25px;
 }
