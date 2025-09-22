@@ -1922,5 +1922,11 @@ textarea:focus {
  * 13.Terms and condition Section Style
  *************************************/
 .tc-link {
-  color: #c12717 !important;
+  color: #0056b3;
+  border-bottom: 1px dashed #0056b3;
+  text-decoration: none;
+}
+.tc-link:hover {
+  color: #0056b3;
+  border-bottom: 1px solid #003366;
 }
