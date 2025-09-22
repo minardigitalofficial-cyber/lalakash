@@ -1901,12 +1901,16 @@ textarea:focus {
 
 .blog_icons {
   color: #4b5563;
-  font-size: 24px;
+  font-size: 26px;
   transition: 0.5s;
 }
 
 .blog_icons:hover {
   color: #2563eb;
+}
+
+.blog_icons_ig:hover {
+  color: #d62976;
 }
 
 .readMoreContent {
