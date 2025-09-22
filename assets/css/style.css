@@ -1917,3 +1917,10 @@ textarea:focus {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: none !important;
 }
+
+/**************************************
+ * 13.Terms and condition Section Style
+ *************************************/
+.tc-link {
+  color: #c12717 !important;
+}
