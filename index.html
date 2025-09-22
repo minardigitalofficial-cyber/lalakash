@@ -63,7 +63,6 @@
     <!-- Site All Style Sheet Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
     <link href="assets/css/animate.min.css" rel="stylesheet" />
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
@@ -255,10 +254,26 @@
       <div class="home-slider">
         <div id="slides">
           <div class="slides-container">
-            <img src="./assets/img/slide-1.webp" alt="slider-image" />
-            <img src="./assets/img/slide-2.webp" alt="slider-image" />
-            <img src="./assets/img/slide-3.webp" alt="slider-image" />
-            <img src="./assets/img/slide-4.webp" alt="slider-image" />
+            <img
+              src="./assets/img/slide-1.webp"
+              alt="slider-image"
+              fetchpriority="high"
+            />
+            <img
+              src="./assets/img/slide-2.webp"
+              alt="slider-image"
+              loading="lazy"
+            />
+            <img
+              src="./assets/img/slide-3.webp"
+              alt="slider-image"
+              loading="lazy"
+            />
+            <img
+              src="./assets/img/slide-4.webp"
+              alt="slider-image"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -655,7 +670,11 @@
     <script src="assets/js/jquery.superslides.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <!-- Google Map JS -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ_mGhah8EApmFiXYYBsdBuygviP2M2EE"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ_mGhah8EApmFiXYYBsdBuygviP2M2EE"
+      async
+      defer
+    ></script>
     <script src="assets/js/gmap3.min.js"></script>
     <!--Site Main js-->
     <script src="assets/js/main.js"></script>
