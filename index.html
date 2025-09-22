@@ -318,7 +318,18 @@
             data-wow-delay="0.4s"
           >
             <div class="about-image">
-              <img src="./assets/img/about.webp" alt="About image" />
+              <picture>
+                <!-- Mobile -->
+                <source
+                  srcset="./assets/img/about.webp"
+                  media="(max-width: 480px)"
+                />
+                <!-- Desktop & Tablet -->
+                <img
+                  src="./assets/img/about-desktop.webp"
+                  alt="Responsive website preview"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -353,54 +364,90 @@
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/1.webp"
+              href="./assets/img/gallery/1.jpg"
             >
-              <img src="./assets/img/gallery/1.webp" alt="dine in" />
+              <img
+                src="./assets/img/gallery/1.webp"
+                alt="dine in"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
           <!-- gallery-single-item -->
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/2.webp"
+              href="./assets/img/gallery/2.jpg"
             >
-              <img src="./assets/img/gallery/2.webp" alt="image" />
+              <img
+                src="./assets/img/gallery/2.webp"
+                alt="image"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
           <!-- gallery-single-item -->
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/7.webp"
+              href="./assets/img/gallery/7.jpg"
             >
-              <img src="./assets/img/gallery/7.webp" alt="image" />
+              <img
+                src="./assets/img/gallery/7.webp"
+                alt="image"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
           <!-- gallery-single-item -->
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/4.webp"
+              href="./assets/img/gallery/4.jpg"
             >
-              <img src="./assets/img/gallery/4.webp" alt="image" />
+              <img
+                src="./assets/img/gallery/4.webp"
+                alt="image"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
           <!-- gallery-single-item -->
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/9.webp"
+              href="./assets/img/gallery/9.jpg"
             >
-              <img src="./assets/img/gallery/9.webp" alt="image" />
+              <img
+                src="./assets/img/gallery/9.webp"
+                alt="image"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
           <!-- gallery-single-item -->
           <div class="col-lg-4 col-md-6">
             <a
               class="gallery-single-item popup-img"
-              href="./assets/img/gallery/6.webp"
+              href="./assets/img/gallery/6.jpg"
             >
-              <img src="./assets/img/gallery/6.webp" alt="image" />
+              <img
+                src="./assets/img/gallery/6.webp"
+                alt="image"
+                width="350"
+                height="250"
+                loading="lazy"
+              />
             </a>
           </div>
         </div>
