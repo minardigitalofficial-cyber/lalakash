@@ -50,7 +50,7 @@
   .home-area .home-content p {
     padding: 0 10px;
   }
-  .about-content h2 {
+  .about-content h3 {
     font-size: 30px;
   }
   .menu-day-product-content .menu-day-tab-list li {
@@ -61,7 +61,7 @@
   .menu-day-product-content .menu-day-tab-list li a {
     font-size: 16px;
   }
-  .reservation-area h2 {
+  .reservation-area h3 {
     font-size: 35px;
     margin-bottom: 0;
   }
@@ -101,10 +101,10 @@
   .home-area .home-content h1 {
     font-size: 50px;
   }
-  .about-content h2 {
+  .about-content h3 {
     font-size: 30px;
   }
-  .reservation-area h2 {
+  .reservation-area h3 {
     font-size: 35px;
     margin-bottom: 0;
   }
@@ -201,10 +201,10 @@
   .home-area .home-content h1 {
     font-size: 40px;
   }
-  .about-content h2 {
+  .about-content h3 {
     font-size: 30px;
   }
-  .reservation-area h2 {
+  .reservation-area h3 {
     font-size: 35px;
     margin-bottom: 0;
   }

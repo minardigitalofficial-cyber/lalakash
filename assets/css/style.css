@@ -870,12 +870,12 @@ h5 {
  * 05.About Section Style
  *************************************/
 
-.about-content-text h1 {
+.about-content-text h2 {
   font-size: 30px;
   color: #e03f25;
   font-family: "Cookie", cursive;
 }
-.about-content h2 {
+.about-content h3 {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1068,12 +1068,12 @@ h5 {
   z-index: -1;
 }
 
-.reservation-area h1 {
+.reservation-area h2 {
   font-size: 30px;
   color: #e03f25;
   font-family: "Cookie", cursive;
 }
-.reservation-area h2 {
+.reservation-area h3 {
   color: #ffffff;
   font-size: 50px;
   font-weight: 700;
