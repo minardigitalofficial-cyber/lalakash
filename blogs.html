@@ -55,26 +55,62 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
     <!-- Google Fonts -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fondamento&family=Poppins:wght@300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fondamento&family=Poppins:wght@300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
     <!-- Site All Style Sheet Css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="assets/css/bootstrap.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/bootstrap.min.css"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="assets/css/font-awesome.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/font-awesome.min.css"
+    /></noscript>
 
     <!-- Site Main Style Sheet Css -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/responsive.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/style.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
+
+    <link
+      rel="preload"
+      href="assets/css/responsive.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/responsive.css"
+    /></noscript>
 
     <script type="application/ld+json">
       {
@@ -215,7 +251,7 @@
       <div class="container mt-5">
         <div class="row">
           <!-- Card 1 -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog1.webp"
@@ -240,7 +276,7 @@
           </div>
 
           <!-- Repeat for other cards -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog2.webp"
@@ -263,7 +299,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog3.webp"
@@ -284,11 +320,9 @@
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="row">
           <!-- Card 1 -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog1.webp"
@@ -311,7 +345,7 @@
           </div>
 
           <!-- Repeat for other cards -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog2.webp"
@@ -334,7 +368,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="card blogcard_shadow">
               <img
                 src="./assets/img/blog/blog3.webp"
