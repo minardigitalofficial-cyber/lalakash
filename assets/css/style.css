@@ -1833,6 +1833,7 @@ textarea:focus {
 
 .blog_title {
   font-family: "Poppins", sans-serif;
+  font-size-adjust: 0.5; /* tweak per font */
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 10px;
