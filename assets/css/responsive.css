@@ -30,6 +30,16 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .section-padding {
+    padding: 40px 0;
+  }
+  .gallery-area {
+    padding-bottom: 0;
+  }
+  .gallery-area .section-title,
+  .contact-area .section-title {
+    margin-bottom: 20px;
+  }
   .section-title h2 {
     font-size: 30px;
   }
@@ -50,6 +60,9 @@
   .home-area .home-content p {
     padding: 0 10px;
   }
+  .about-content {
+    margin-bottom: 20px;
+  }
   .about-content h3 {
     font-size: 30px;
   }
@@ -67,6 +80,9 @@
   }
   .contact-box-info-wrapper {
     margin-bottom: 50px;
+  }
+  .contact-box > h2 {
+    font-size: 20px;
   }
   .form-container-box {
     margin-left: 0;
@@ -108,7 +124,7 @@
     font-size: 30px;
   }
   .reservation-area h3 {
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 0;
   }
   .contact-box-info-wrapper {
