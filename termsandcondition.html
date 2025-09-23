@@ -50,23 +50,39 @@
     />
 
     <!-- Google Fonts -->
-    <!-- Google Fonts -->
-
+    <!-- Preconnect helps establish faster connections -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- Preload the fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Fondamento&family=Poppins:wght@300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'"
+      rel="preload"
+      href="https://fonts.gstatic.com/s/fondamento/v16/4UaHrEJDsxBrF37olUeD_w.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-    <noscript>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Fondamento&family=Poppins:wght@300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/mukta/v12/iJWKBXyXfDDVXbnBrXw.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/raleway/v28/1Ptsg8zYS_SKggPNwIY.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Your main stylesheet link with display=swap -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fondamento&family=Mukta:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
@@ -494,9 +510,5 @@
     <!-- Site All Jquery Js -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-
-    <!--Site Main js-->
-    <script src="assets/js/main.js"></script>
   </body>
 </html>
