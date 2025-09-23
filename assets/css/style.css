@@ -32,6 +32,7 @@ body {
   background: #ffffff;
   color: #333;
   font-family: "Fondamento", cursive;
+  font-size-adjust: 0.5;
   font-size: 15px;
   font-weight: normal;
   line-height: 26px;
@@ -89,7 +90,7 @@ p {
   color: #555;
   font-weight: 400;
   line-height: 26px;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
 }
 .z-index {
   z-index: 9;
@@ -134,7 +135,6 @@ button:focus {
   white-space: nowrap;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  font-family: "Source Sans Pro", sans-serif;
   will-change: transform;
 }
 .button:hover {
@@ -567,7 +567,7 @@ h5 {
   display: inline-block;
   color: #ffffff;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 
@@ -615,7 +615,7 @@ h5 {
   font-size: 12px;
   color: #ffffff;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 
@@ -1769,7 +1769,7 @@ textarea:focus {
 }
 .widget-3 address {
   color: #ccc;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
   font-size: 16px;
 }
 .widget-3 .opening-hours p {
@@ -1796,12 +1796,12 @@ textarea:focus {
 }
 .privacy-policy h3 {
   font-size: 20px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 600;
 }
 .privacy-policy ul li {
   list-style: disc;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
   margin-left: 40px;
   font-size: 16px;
   margin-block: 10px;
@@ -1810,7 +1810,7 @@ textarea:focus {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
 }
 .privacy-policy address a {
   display: flex;
@@ -1818,7 +1818,7 @@ textarea:focus {
   gap: 10px;
   color: #333;
   transition: 0.3s ease-in-out;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
 }
 
 .privacy-policy address a:hover {
@@ -1847,7 +1847,7 @@ textarea:focus {
   margin-top: 10px;
   border: 1px solid #d6d3d1;
   transition: 0.4s ease;
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta", Arial, sans-serif;
   font-size: 14px;
   color: #44403c;
 }
