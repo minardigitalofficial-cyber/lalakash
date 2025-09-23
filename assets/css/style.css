@@ -1834,7 +1834,7 @@ textarea:focus {
 }
 
 .blog_title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Fondamento", cursive;
   font-size-adjust: 0.5; /* tweak per font */
   font-size: 26px;
   font-weight: 500;
@@ -1859,6 +1859,7 @@ textarea:focus {
 .blog-desc {
   font-size: 16px;
   line-height: 1.2;
+  font-family: sans-serif;
 }
 
 .image_container {
