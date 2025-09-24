@@ -1,0 +1,273 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Button Tabs</title>
+    <style>
+      .tabs {
+        max-width: 500px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Hide radio buttons */
+      .tabs input[type="radio"] {
+        display: none;
+      }
+
+      /* Tab labels */
+      .tabs label {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-right: 5px;
+        background: #eee;
+        cursor: pointer;
+        border-radius: 6px 6px 0 0;
+        transition: 0.3s;
+      }
+
+      /* Active tab label */
+      .tabs input[type="radio"]:checked + label {
+        background: #4caf50;
+        color: #fff;
+      }
+
+      /* Tab content */
+      .tab-content {
+        display: none;
+        padding: 20px;
+        border: 2px solid #4caf50;
+        border-radius: 0 6px 6px 6px;
+        background: #f9f9f9;
+      }
+
+      /* Show the active tab */
+      #tab1:checked ~ #content1,
+      #tab2:checked ~ #content2,
+      #tab3:checked ~ #content3 {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tabs">
+      <!-- Radio buttons -->
+      <input type="radio" id="tab1" name="tab" checked />
+      <label for="tab1">Tab 1</label>
+
+      <input type="radio" id="tab2" name="tab" />
+      <label for="tab2">Tab 2</label>
+
+      <input type="radio" id="tab3" name="tab" />
+      <label for="tab3">Tab 3</label>
+
+      <!-- Tab content -->
+      <div id="content1" class="tab-content">
+        <h2>Content 1</h2>
+        <p>This is the first tab content.</p>
+      </div>
+      <div id="content2" class="tab-content">
+        <h2>Content 2</h2>
+        <p>This is the second tab content.</p>
+      </div>
+      <div id="content3" class="tab-content">
+        <h2>Content 3</h2>
+        <p>This is the third tab content.</p>
+      </div>
+    </div>
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Menu Tabs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fdfdfd;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .menu-container {
+      display: flex;
+      max-width: 1000px;
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    /* Sidebar */
+    .tabs {
+      background: #c12717;
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+    }
+
+    .tabs input[type="radio"] {
+      display: none;
+    }
+
+    .tabs label {
+      padding: 14px 20px;
+      margin: 6px 12px;
+      background: #fff;
+      color: #333;
+      text-align: center;
+      font-weight: 500;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tabs label:hover {
+      background: #f3d2d0;
+    }
+
+    /* Active tab style */
+    .tabs input[type="radio"]:checked + label {
+      background: #fff5f4;
+      border: 2px solid #fff;
+      color: #c12717;
+      font-weight: 600;
+      box-shadow: inset 0 0 0 2px #c12717;
+    }
+
+    /* Content */
+    .content {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(5px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    #tab1:checked ~ .content #content1,
+    #tab2:checked ~ .content #content2,
+    #tab3:checked ~ .content #content3,
+    #tab4:checked ~ .content #content4,
+    #tab5:checked ~ .content #content5,
+    #tab6:checked ~ .content #content6,
+    #tab7:checked ~ .content #content7,
+    #tab8:checked ~ .content #content8,
+    #tab9:checked ~ .content #content9,
+    #tab10:checked ~ .content #content10,
+    #tab11:checked ~ .content #content11,
+    #tab12:checked ~ .content #content12 {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <!-- Sidebar tabs -->
+    <div class="tabs">
+      <input type="radio" id="tab1" name="tab" checked>
+      <label for="tab1">Starters</label>
+
+      <input type="radio" id="tab2" name="tab">
+      <label for="tab2">Condiment</label>
+
+      <input type="radio" id="tab3" name="tab">
+      <label for="tab3">Grill Tandoor</label>
+
+      <input type="radio" id="tab4" name="tab">
+      <label for="tab4">Hall Fame Special</label>
+
+      <input type="radio" id="tab5" name="tab">
+      <label for="tab5">Chefs Recommend</label>
+
+      <input type="radio" id="tab6" name="tab">
+      <label for="tab6">Tikka Special</label>
+
+      <input type="radio" id="tab7" name="tab">
+      <label for="tab7">Balti</label>
+
+      <input type="radio" id="tab8" name="tab">
+      <label for="tab8">Tradition</label>
+
+      <input type="radio" id="tab9" name="tab">
+      <label for="tab9">Biryani</label>
+
+      <input type="radio" id="tab10" name="tab">
+      <label for="tab10">Veg Main</label>
+
+      <input type="radio" id="tab11" name="tab">
+      <label for="tab11">Veg Side</label>
+
+      <input type="radio" id="tab12" name="tab">
+      <label for="tab12">Rice & Breads</label>
+    </div>
+
+    <!-- Content area -->
+    <div class="content">
+      <div id="content1" class="tab-content">
+        <h2>Starters</h2>
+        <p>Delicious appetizers to begin your meal.</p>
+      </div>
+      <div id="content2" class="tab-content">
+        <h2>Condiments</h2>
+        <p>Sauces, dips and side flavors.</p>
+      </div>
+      <div id="content3" class="tab-content">
+        <h2>Grill Tandoor</h2>
+        <p>Authentic tandoori grilled specials.</p>
+      </div>
+      <div id="content4" class="tab-content">
+        <h2>Hall Fame Special</h2>
+        <p>Our chef’s finest creations.</p>
+      </div>
+      <div id="content5" class="tab-content">
+        <h2>Chefs Recommend</h2>
+        <p>Personal picks by our chefs.</p>
+      </div>
+      <div id="content6" class="tab-content">
+        <h2>Tikka Special</h2>
+        <p>Signature tikka flavors you’ll love.</p>
+      </div>
+      <div id="content7" class="tab-content">
+        <h2>Balti</h2>
+        <p>Rich and aromatic balti dishes.</p>
+      </div>
+      <div id="content8" class="tab-content">
+        <h2>Tradition</h2>
+        <p>Classic recipes passed down generations.</p>
+      </div>
+      <div id="content9" class="tab-content">
+        <h2>Biryani</h2>
+        <p>Fragrant rice dishes with exotic spices.</p>
+      </div>
+      <div id="content10" class="tab-content">
+        <h2>Veg Main</h2>
+        <p>Wholesome vegetarian entrées.</p>
+      </div>
+      <div id="content11" class="tab-content">
+        <h2>Veg Side</h2>
+        <p>Perfect side dishes for your main course.</p>
+      </div>
+      <div id="content12" class="tab-content">
+        <h2>Rice & Breads</h2>
+        <p>Freshly baked breads and rice options.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

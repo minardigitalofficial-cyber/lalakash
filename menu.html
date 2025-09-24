@@ -66,6 +66,7 @@
 
     <!-- Site Main Style Sheet Css -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/menutabs.css" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
 
     <script type="application/ld+json">
@@ -203,1261 +204,1610 @@
     <!-- End Header Navbar Area -->
 
     <!-- Menu section start here  -->
-    <div class="menu-card container">
-      <div class="menu-header">
-        <h1>Menu</h1>
+    <section class="menu-section">
+      <div class="container">
+        <div class="menu-box">
+          <div class="row">
+            <div class="col col-md-4 left-side">
+              <ul class="menu-tabs-block">
+                <button class="btn cross_btn">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <li data-target="starters" class="active">
+                  <h2>Starters</h2>
+                </li>
+                <li data-target="Condiment">
+                  <h2>Condiment</h2>
+                </li>
+                <li data-target="grillTandor">
+                  <h2>Grill Tandoor</h2>
+                </li>
+                <li data-target="hallFameSpecial">
+                  <h2>Hall Fame Special</h2>
+                </li>
+                <li data-target="chefsRecommend">
+                  <h2>Chefs Recommend</h2>
+                </li>
+                <li data-target="tikkaSpecial">
+                  <h2>Tikka Special</h2>
+                </li>
+                <li data-target="balti">
+                  <h2>Balti</h2>
+                </li>
+                <li data-target="tradition">
+                  <h2>Tradition</h2>
+                </li>
+                <li data-target="biryani">
+                  <h2>Biryani</h2>
+                </li>
+                <li data-target="vegMain">
+                  <h2>Veg Main</h2>
+                </li>
+                <li data-target="vegSide">
+                  <h2>Veg Side</h2>
+                </li>
+                <li data-target="riceAndBreads">
+                  <h2>Rice & Breads</h2>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-md-8 right-side">
+              <div class="menu-card">
+                <div class="menu-header">
+                  <button class="menu-button btn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <h1>Menu</h1>
 
-        <p>
-          <strong>Open:</strong> 11:30 — 22:00 ·
-          <strong>Reservations:</strong> +4402086527552
-        </p>
+                  <p>
+                    <strong>Open:</strong> 11:30 — 22:00 ·
+                    <strong>Reservations:</strong> +4402086527552
+                  </p>
+                </div>
+
+                <div class="section active" id="starters">
+                  <h2>Starters</h2>
+                  <div class="item">
+                    <div>
+                      <div class="title" title="Onion Bhaji">Onion Bhaji</div>
+                      <div class="desc">
+                        piced onion and gram flour dumplings fried golden until
+                        crisp;
+                      </div>
+                      <p><span class="allergy">Allergy:</span> egg</p>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Champ-E-Peshwari Starter</div>
+                      <div class="desc">
+                        Tandoori lamb chops marinated in a special blend of
+                        spices
+                      </div>
+                      <p>
+                        <span class="allergy">Allergy:</span>
+                        chilli,peanut,egg,gluten
+                      </p>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Paneer Shashlik</div>
+                      <div class="desc">
+                        Mint and coriander flavoured char grilled bell peppers
+                        and cottage cheese curd
+                      </div>
+                      <p><span class="allergy">Allergy:</span> dairy</p>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Prawn Puri</div>
+                      <div class="desc">
+                        Spiced prawns in a rich tangy sauce, served on a
+                        wholewheat puri
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mixed Hors d'Oeuvres</div>
+                      <div class="desc">
+                        A mixed grill platter consisting of char grilled lamb
+                        chop, chicken tikka, prawns, Mogo masala, deep fried
+                        cassava (yucca plant) and onion bhaji, to be shared
+                        between two
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Kyberi Jheenga Starter</div>
+                      <div class="desc">
+                        Whole tiger prawns, lightly marinated in yoghurt, spices
+                        and grilled in a tandoori
+                      </div>
+                      <p><span class="allergy">Allergy:</span> gluten</p>
+                    </div>
+                    <div class="price">£5.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Raunaq-E-Seekh</div>
+                      <div class="desc">
+                        Seekh kebab; Aromatic lamb mince, infused with herbs and
+                        spices, skewerd and barbecued
+                      </div>
+                      <p><span class="allergy">Allergy:</span> egg</p>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Tandoori Chicken Starter</div>
+                      <div class="desc">
+                        Juicy spring chicken marinated in aromatic Indian spices
+                        and barbecued in the tandoor
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Momo</div>
+                      <div class="desc">
+                        Tender lamb marinated in a secret sauce cooked in the
+                        tandoori then pan fried with aromatic herbs and spices
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Tikka Starter</div>
+                      <div class="desc">
+                        Boneless morsels barbecued on skewers with fresh onions,
+                        served sizzling
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Starter</div>
+                      <div class="desc">
+                        Boneless morsels barbecued on skewers with fresh onions,
+                        served sizzling
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mogo Masala</div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Sweet Chilli Calamari</div>
+                      <div class="desc">
+                        Crispy stir fried baby squid roundels tossed with
+                        pimentos and cumin
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Samosa</div>
+                      <div class="desc">
+                        Crispy deep fried pastry parcels filled with spicy
+                        vegetables Gluten free
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Meat Samosa</div>
+                      <div class="desc">
+                        Crispy deep fried pastry parcels filled with minced
+                        lamb; Gluten free
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">King Prawn Puri</div>
+                      <div class="desc">
+                        A spiced king prawn in a rich tangy sauce served on a
+                        wholewheat bread
+                      </div>
+                      <div><span class="allergy">Allergy: </span>peanut</div>
+                    </div>
+                    <div class="price">£5.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Salmon Dilwala Starter</div>
+                      <div class="desc">
+                        Fresh Scottish salmon tikka marinated in yoghurt and
+                        spices, glazed golden in the clay oven (contains nuts)
+                      </div>
+                    </div>
+                    <div class="price">£5.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="Condiment">
+                  <h2>Condiment</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Plain Papadom</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Spicy Papadom</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mint Sauce</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mango Chutney</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Onion Salad</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lime Pickle</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Coriander Chutney</div>
+                    </div>
+                    <div class="price">£0.80</div>
+                  </div>
+                </div>
+
+                <div class="section" id="grillTandor">
+                  <h2>Grill Tandoor</h2>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Tikka Main</div>
+                      <div class="desc">
+                        Boneless morsels barbecued on skewers with fresh onions
+                        served sizzling.
+                      </div>
+                    </div>
+                    <div class="price">£8.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Main</div>
+                      <div class="desc">
+                        Boneless morsels barbecued on skewers with fresh onions
+                        served sizzling.
+                      </div>
+                    </div>
+                    <div class="price">£8.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Shashlik</div>
+                      <div class="desc">
+                        Diced chicken char-roasted in the tandoor with onions,
+                        tomatoes, peppers and mushrooms.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Roshan Ada Murgh</div>
+                      <div class="desc">
+                        Sliced spring tandoori chicken pan fried with onion,
+                        peppers, fresh garlic and ginger.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Champ-e-Peshwari Main</div>
+                      <div class="desc">
+                        Tandoori lamb chops marinated in a blend of spices.
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Tandoori Chicken Main</div>
+                      <div class="desc">
+                        Chicken breast and leg on the bone, marinated in Lal
+                        Akash's special spices and char-grilled perfection.
+                        Served with salad.
+                      </div>
+                    </div>
+                    <div class="price">£8.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Khyberi Jheenga Main</div>
+                      <div class="desc">
+                        Whole tiger prawns, lightly marinated in yoghurt, spiced
+                        and grilled in tandoor.
+                      </div>
+                      <p><span class="allergy">Allergy: </span> dairy</p>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Hasina Lamb</div>
+                      <div class="desc">
+                        Tender lamb chunks kept in a special marinade, cooked
+                        with sliced peppers, tomatoes, fresh onion and
+                        mushrooms.
+                      </div>
+                      <p><span class="allergy">Allergy: </span> dairy</p>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Salmon Diwala Main</div>
+                      <div class="desc">
+                        Fresh Scottish salmon tikka marinated in yoghurt and
+                        spices, glazed golden in the clay oven.
+                      </div>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Tandoori ki Shaan (Mixed Grill)</div>
+                      <div class="desc">
+                        An amazing selection of tandoori delicacies, including
+                        tandoori chicken, chicken tikka, lamb tikka, Seekh kebab
+                        tandoori king prawn.
+                      </div>
+                    </div>
+                    <div class="price">£13.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="hallFameSpecial">
+                  <h2>Hall Fame Special</h2>
+
+                  <div class="item2">
+                    <div class="title">BEGUM BAGAAR</div>
+                    <div class="desc">
+                      Garlic and ginger gently browned in ghee then fried with
+                      added spice and homemade yoghurt
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Begum Bagaar</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Begum Bagaar</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                  <div class="item2">
+                    <div class="title">SOBUCH JALFREZI</div>
+                    <div class="desc">
+                      Tandoori chicken / lamb tikka cooked in special coriander
+                      chutney, coconut butter with a combination of peppers,
+                      onions and green chillies.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Sobuch Jalfrezi</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Sobuch Jalfrezi</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                  <div class="item2">
+                    <div class="title">KABULI</div>
+                    <div class="desc">
+                      cooked in a rich dry sauce of yoghurt, tomatoes, selected
+                      herbs and spices, with a fantastic blend of homemade
+                      pickles.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Kabuli</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Kabuli</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Nalli Gosht Rogan</div>
+                      <div class="desc">
+                        Tender baby lamb shan cooked in the traditional Rogan
+                        Josh spices and masala
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">King Prawn Sizzlers</div>
+                      <div class="desc">
+                        King prawn cooked in medium spiced onion, pepper and
+                        tomato sauce. Sizzled with a touch of brandy.
+                      </div>
+                    </div>
+                    <div class="price">£16.95</div>
+                  </div>
+                  <div class="item2">
+                    <div class="title">NEPAL KALIO</div>
+                    <div class="desc">
+                      A hot fiery dish of chilli seeds and fresh spice with
+                      chicken and diced potatoes in a sauce blended with
+                      homemade yoghurt.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Nepal Kalio Chicken</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Nepal Kalio Lamb</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Gosht-ke-lazeez</div>
+                      <div class="desc">
+                        Marinated lamb cooked with fresh chillies and spring
+                        onions in a hot, sweet and sour sauce
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Batak Raja</div>
+                      <div class="desc">
+                        Duck breast cooked over burning charcoal in the tandoor,
+                        delicately sliced and served on a pool of delicious
+                        masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Kadhai Jhinga</div>
+                      <div class="desc">
+                        Pan-fried whole jumbo prawns with assorted bell peppers
+                        and onions.
+                      </div>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Jhinga Delight</div>
+                      <div class="desc">
+                        King prawns cooked over charcoal and then prepared in
+                        the Lal Akash's secret sauce.
+                      </div>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Sizzlers</div>
+                      <div class="desc">
+                        Chicken cooked in medium spiced onion, pepper and tomato
+                        sauce. Sizzled with a touch of brandy.
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Sizzlers</div>
+                      <div class="desc">
+                        Lamb cooked in medium spiced onion, pepper and tomato
+                        sauce. Sizzled with a touch of brandy.
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Prawn Sizzlers</div>
+                      <div class="desc">
+                        Prawn cooked in medium spiced onion, pepper and tomato
+                        sauce. Sizzled with a touch of brandy
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item2">
+                    <div class="title">PARSI DHANSAK</div>
+                    <div class="desc">
+                      Dhansak (originally a Persian dish) in the traditional
+                      style. Chicken / lamb cooked in lentil based, hot sweet
+                      and sour sauce with an over indulgence of fresh garlic.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Parsi Dhansak</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Parsi Dhansak</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="section" id="chefsRecommend">
+                  <h2>Chefs Recommend</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Nepali Chara</div>
+                      <div class="desc">
+                        Barbecued chicken cooked with almond and slices of mango
+                        in mild creamy sauce.
+                      </div>
+                      <p><span class="allergy">Allergy:</span> dairy</p>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Bhedako Masu</div>
+                      <div class="desc">
+                        Traditional village style boneless lamb curry cooked
+                        with fenugreek and cinnamon.
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Bheda Farsi Mismas</div>
+                      <div class="desc">
+                        Tender pieces of lamb cooked with pumpkins in
+                        traditional spices. Created by Gurkhas of British Raj in
+                        India.
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Magic Momo (10pcs)</div>
+                      <div class="desc">
+                        Steamed minced meat dumplings served with Himalayan
+                        tomato relish.
+                      </div>
+                      <p><span class="allergy">Allergy: </span>dairy</p>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Nepal Hansh Bhutuwa</div>
+                      <div class="desc">
+                        Marinated breast of duck cooked with green herbs, spices
+                        & spring onions
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Nadi Machhali</div>
+                      <div class="desc">
+                        Marinated white fish cooked with special Nepalese
+                        spices, mustard, ginger, fresh herbs and a touch of
+                        yoghurt. The villager's recipe from Modi river in Nepal.
+                      </div>
+                    </div>
+                    <div class="price">£12.95</div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">GURKHALI</div>
+                    <div class="desc">
+                      Boneless chicken / lamb marinated wit Nepalese herbs and
+                      spices touched with yoghurt and green chillies.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Gurkhali Chicken</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Gurkhali Lamb</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Chati Khukura</div>
+                      <div class="desc">
+                        Chicken cooked with fresh mushrooms and green peas in
+                        chef's special spices, flavoured with green herbs
+                      </div>
+                      <p><span class="allergy">Allergy: </span>peanut</p>
+                    </div>
+
+                    <div class="price">£10.95</div>
+                  </div>
+                </div>
+                <div class="section" id="tikkaSpecial">
+                  <h2>Tikka Special</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Chi Tk Masala</div>
+                      <div class="desc">
+                        Britain's most favorite curry. Tender pieces of chicken
+                        tikka, cooked in our very own special aromatic smooth
+                        masala gravy made from tomatoes.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Masala</div>
+                      <div class="desc">
+                        Britain's most favorite curry. Tender pieces of lamb
+                        tikka, cooked in our very own special aromatic smooth
+                        masala gravy made from tomatoes.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">King Prawn Tikka Masala</div>
+                      <div class="desc">
+                        King Prawn in a mild creamy Tandoori sauce.
+                      </div>
+                    </div>
+                    <div class="price">£13.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Butter Chicken</div>
+                      <div class="desc">
+                        Pieces of char-grilled chicken cooked with fenugreek, in
+                        a creamy butter flavoured sauce
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Tikka Pasanda</div>
+                      <div class="desc">
+                        Chicken with almonds and sultanas in a creamy red wine
+                        sauce.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Pasanda</div>
+                      <div class="desc">
+                        lamb with almonds and sultanas in a creamy red wine
+                        sauce.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Rezalla</div>
+                      <div class="desc">
+                        Lamb with onions, peppers, tomatoes and green chillies
+                        in a dark rich sauce.
+                      </div>
+                    </div>
+                    <div class="price">£9.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="balti">
+                  <h2>Balti</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Balti</div>
+
+                      <p>
+                        <span class="allergy">Allergy: </span
+                        >chilli,peanut,dairy
+                      </p>
+                    </div>
+
+                    <div class="price">£8.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">King Prawn Balti</div>
+
+                      <p><span class="allergy">Allergy: </span>crustacean</p>
+                    </div>
+
+                    <div class="price">£12.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Balti</div>
+
+                      <p><span class="allergy">Allergy: </span>peanut</p>
+                    </div>
+
+                    <div class="price">£9.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Balti</div>
+
+                      <p><span class="allergy">Allergy: </span>dairy</p>
+                    </div>
+
+                    <div class="price">£9.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="tradition">
+                  <h2>Tradition</h2>
+
+                  <div class="item2">
+                    <div class="title">KORMA</div>
+                    <div class="desc">
+                      Fresh cream sauce with very mild spices and coconut
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Korma</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Korma</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Korma</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Korma</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Korma</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Korma</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">BHUNA</div>
+                    <div class="desc">
+                      A dry rich sauce with fresh tomatoes, and sauteed onions.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Bhuna</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Bhuna</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Bhuna</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Bhuna</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Bhuna</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Bhuna</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">CURRY</div>
+                    <div class="desc">
+                      A simple thick sauce with mild Indian spices.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Curry</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Curry</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Curry</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Curry</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Curry</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Curry</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">DUPIAZA</div>
+                    <div class="desc">
+                      Cooked in onions, peppers, tomatoes flavoured spiced
+                      masala sauce.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Dupiaza</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Dupiaza</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Dupiaza</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Dupiaza</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Dupiaza</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Dupiaza</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">ROGAN</div>
+                    <div class="desc">
+                      Cooked in onions, peppers, tomatoes flavoured spiced
+                      masala sauce.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Rogan</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Rogan</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Rogan</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Rogan</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Rogan</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Rogan</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">ROGAN JOSH</div>
+                    <div class="desc">
+                      Your favorite meat delicately cooked in traditional
+                      masala.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Rogan Josh</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Rogan Josh</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Rogan Josh</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Rogan Josh</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Rogan Josh</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Rogan Josh</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">SAGWALA</div>
+                    <div class="desc">
+                      Cooked in onions, peppers, tomatoes flavoured spiced
+                      masala sauce.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Sagwala</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Sagwala</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Sagwala</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Sagwala</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Sagwala</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Sagwala</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">DHANSAK</div>
+                    <div class="desc">
+                      A hot, sweet and sour sauce with assorted lentils.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Dhansak</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Dhansak</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Dhansak</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Dhansak</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Dhansak</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Dhansak</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">MADRAS</div>
+                    <div class="desc">
+                      A hot, sweet and sour sauce with assorted lentils.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Madras</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Madras</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Madras</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Madras</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Madras</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Madras</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">VINDALOO</div>
+                    <div class="desc">
+                      A hot, sweet and sour sauce with assorted lentils.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Vindaloo</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Vindaloo</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Vindaloo</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Vindaloo</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Vindaloo</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Vindaloo</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">KASHMIRI</div>
+                    <div class="desc">A creamy sauce with exotic fruits.</div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Kashmiri</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Kashmiri</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Kashmiri</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Kashmiri</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Kashmiri</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Kashmiri</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+
+                  <div class="item2">
+                    <div class="title">JALFREZI</div>
+                    <div class="desc">
+                      Hot sauce with onions, peppers, tomatoes and green
+                      chillies.
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Jalfrezi</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Jalfrezi</p>
+                      <span class="varient-price">£9.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Prawn Jalfrezi</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">King Prawn Jalfrezi</p>
+                      <span class="varient-price">£11.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Lamb Tikka Jalfrezi</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                    <div class="varient-area">
+                      <p class="varietn-title">Chicken Tikka Jalfrezi</p>
+                      <span class="varient-price">£10.95 </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section" id="biryani">
+                  <h2>Biryani</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£8.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">King Prawn Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£14.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Tikka Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£11.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Tikka Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£11.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chicken Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lamb Biryani</div>
+                      <div class="desc">
+                        Biryani is a rich savoury rice dish cooked with various
+                        herbs and spices. All dishes are served with special
+                        vegetable masala sauce.
+                      </div>
+                    </div>
+                    <div class="price">£10.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="vegMain">
+                  <h2>Veg Main</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Paneer Labadar</div>
+                      <div class="desc">
+                        Cheese curd cooked in a very mild creamy nutty flavoured
+                        smooth tomato sauce.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Sambhar</div>
+                      <div class="desc">
+                        Spicy dish of fresh cabbage and crisp cauliflower, pan
+                        fried with spices.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Shahi Kofta</div>
+                      <div class="desc">
+                        Delicious vegetable balls cooked in a rich and creamy
+                        sauce with fresh spices.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Dal Makhani</div>
+                      <div class="desc">
+                        Slow cooked lentils, specialty of north west frontier.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lal Akash Special Chat</div>
+                      <div class="desc">
+                        Spicy vegetables in a slightly hot, sweet and tangy
+                        sauce
+                      </div>
+                      <p><span class="allergy">Allergy: </span>dairy</p>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Chilli</div>
+                      <div class="desc">
+                        Assorted vegetables pan fried wit fresh green chillies,
+                        in a hot and sour sauce.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Tapari</div>
+                      <div class="desc">
+                        Selection of fresh vegetables including pumpkin, potato
+                        and green peas.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Dhansak</div>
+                      <div class="desc">
+                        Fresh vegetables in a lentil sauce with a hot, sweet and
+                        sour combination.
+                      </div>
+                      <p><span class="allergy">Allergy: </span>peanut,dairy</p>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Vegetable Cashew Korma</div>
+                      <div class="desc">
+                        Fresh seasonal mixed green vegetables cooked in cashew
+                        nut sauce and flavoured with green cardamom.
+                      </div>
+                    </div>
+                    <div class="price">£7.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="vegSide">
+                  <h2>Veg Side</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Mushroom Bhaji</div>
+                      <div class="desc">
+                        Mushroom cooked in chef's special sauce
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Dhingri Palak</div>
+                      <div class="desc">Garlic, spinach and mushrooms</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Bhindi Bhaji</div>
+                      <div class="desc">okra with medium spice</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Bombay Aloo</div>
+                      <div class="desc">
+                        Bombay potatoes in a medium spicy sauce.
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Saag Aloo</div>
+                      <div class="desc">
+                        Spinach and potatoes in a medium spicy sauce.
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Sag Bhaji</div>
+                      <div class="desc">
+                        Fresh spinach cooked with onion and garlic
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mutter Paneer</div>
+                      <div class="desc">Peas with homemade cheese curd</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chana Bhaji</div>
+                      <div class="desc">Chick peas</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Tarka Dall</div>
+                      <div class="desc">
+                        Tempered assorted lentils with fried garlic
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Brinjal Bhaji</div>
+                      <div class="desc">
+                        Aubergine cooked with garlic and herbs.
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Gobi Bhaji</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Niramish</div>
+                      <div class="desc">A dry dish of mixed vegetables</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Sag Paneer</div>
+                      <div class="desc">
+                        Spinach with homemade cottage cheese curd
+                      </div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Moris Bhaji</div>
+                      <div class="desc">(Peppers)</div>
+                    </div>
+                    <div class="price">£4.95</div>
+                  </div>
+                </div>
+
+                <div class="section" id="riceAndBreads">
+                  <h2>Rice & Breads</h2>
+
+                  <div class="item">
+                    <div>
+                      <div class="title">Pilau Rice</div>
+                      <div class="desc">Basmati Flavoured with safron</div>
+                    </div>
+                    <div class="price">£3.25</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Boiled Rice</div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Mushroom rice</div>
+                      <div class="desc">Fried with sliced mushroom</div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Plain Nan</div>
+                      <div class="desc">
+                        Puffed leaved bread baked in tandoor.
+                      </div>
+                    </div>
+                    <div class="price">£2.50</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Peshwari Nan</div>
+                      <div class="desc">Sultanas, almonds and coconut.</div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Keema Nan</div>
+                      <div class="desc">Naan lined with spice minced lamb.</div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Garlic Nan</div>
+                      <div class="desc">Naan lined with garlic.</div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Kulcha Naan</div>
+                      <div class="desc">
+                        Naan stuffed with spicy vegetables.
+                      </div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Lime Rice</div>
+                      <div class="desc">Cooked with lime zest</div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Roshon Rice</div>
+                      <div class="desc">Cooked with fresh garlic</div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Chapati</div>
+                      <div class="desc">Thin browned unleavened bread.</div>
+                    </div>
+                    <div class="price">£1.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Plain Parata</div>
+                      <div class="desc">Unleavened bread baked in tandoor.</div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Puri</div>
+                      <div class="desc">Thin deep fried whole wheat bread.</div>
+                    </div>
+                    <div class="price">£2.50</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Roti</div>
+                      <div class="desc">
+                        Crispy whole wheat bread baked in tandoor
+                      </div>
+                    </div>
+                    <div class="price">£2.50</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Aloo Parata</div>
+                      <div class="desc">
+                        Unleavened bread baked in tandoor. Paratha stuffed with
+                        potatoes.
+                      </div>
+                    </div>
+                    <div class="price">£2.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Shesto Rice</div>
+                      <div class="desc">
+                        Cooked in garden peas, egg, almond, sultanas, cashew
+                        nuts and spices
+                      </div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Naykal Rice</div>
+                      <div class="desc">Cooked in coconut cream</div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="title">Kadaki Naan</div>
+                      <div class="desc">
+                        Nan topped with Crispy finely chopped onion.
+                      </div>
+                    </div>
+                    <div class="price">£3.95</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="section">
-        <h2>Starters</h2>
-        <div class="item">
-          <div>
-            <div class="title" title="Onion Bhaji">Onion Bhaji</div>
-            <div class="desc">
-              piced onion and gram flour dumplings fried golden until crisp;
-            </div>
-            <p><span class="allergy">Allergy:</span> egg</p>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Champ-E-Peshwari Starter</div>
-            <div class="desc">
-              Tandoori lamb chops marinated in a special blend of spices
-            </div>
-            <p>
-              <span class="allergy">Allergy:</span> chilli,peanut,egg,gluten
-            </p>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Paneer Shashlik</div>
-            <div class="desc">
-              Mint and coriander flavoured char grilled bell peppers and cottage
-              cheese curd
-            </div>
-            <p><span class="allergy">Allergy:</span> dairy</p>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Prawn Puri</div>
-            <div class="desc">
-              Spiced prawns in a rich tangy sauce, served on a wholewheat puri
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Mixed Hors d'Oeuvres</div>
-            <div class="desc">
-              A mixed grill platter consisting of char grilled lamb chop,
-              chicken tikka, prawns, Mogo masala, deep fried cassava (yucca
-              plant) and onion bhaji, to be shared between two
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Kyberi Jheenga Starter</div>
-            <div class="desc">
-              Whole tiger prawns, lightly marinated in yoghurt, spices and
-              grilled in a tandoori
-            </div>
-            <p><span class="allergy">Allergy:</span> gluten</p>
-          </div>
-          <div class="price">£5.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Raunaq-E-Seekh</div>
-            <div class="desc">
-              Seekh kebab; Aromatic lamb mince, infused with herbs and spices,
-              skewerd and barbecued
-            </div>
-            <p><span class="allergy">Allergy:</span> egg</p>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Tandoori Chicken Starter</div>
-            <div class="desc">
-              Juicy spring chicken marinated in aromatic Indian spices and
-              barbecued in the tandoor
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Momo</div>
-            <div class="desc">
-              Tender lamb marinated in a secret sauce cooked in the tandoori
-              then pan fried with aromatic herbs and spices
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Tikka Starter</div>
-            <div class="desc">
-              Boneless morsels barbecued on skewers with fresh onions, served
-              sizzling
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Starter</div>
-            <div class="desc">
-              Boneless morsels barbecued on skewers with fresh onions, served
-              sizzling
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Mogo Masala</div>
-          </div>
-          <div class="price">£3.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Sweet Chilli Calamari</div>
-            <div class="desc">
-              Crispy stir fried baby squid roundels tossed with pimentos and
-              cumin
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Samosa</div>
-            <div class="desc">
-              Crispy deep fried pastry parcels filled with spicy vegetables
-              Gluten free
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Meat Samosa</div>
-            <div class="desc">
-              Crispy deep fried pastry parcels filled with minced lamb; Gluten
-              free
-            </div>
-          </div>
-          <div class="price">£4.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">King Prawn Puri</div>
-            <div class="desc">
-              A spiced king prawn in a rich tangy sauce served on a wholewheat
-              bread
-            </div>
-            <div><span class="allergy">Allergy: </span>peanut</div>
-          </div>
-          <div class="price">£5.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Salmon Dilwala Starter</div>
-            <div class="desc">
-              Fresh Scottish salmon tikka marinated in yoghurt and spices,
-              glazed golden in the clay oven (contains nuts)
-            </div>
-          </div>
-          <div class="price">£5.95</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Condiment</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Plain Papadom</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Spicy Papadom</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Mint Sauce</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Mango Chutney</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Onion Salad</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lime Pickle</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Coriander Chutney</div>
-          </div>
-          <div class="price">£0.80</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Grill Tandoor</h2>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Tikka Main</div>
-            <div class="desc">
-              Boneless morsels barbecued on skewers with fresh onions served
-              sizzling.
-            </div>
-          </div>
-          <div class="price">£8.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Main</div>
-            <div class="desc">
-              Boneless morsels barbecued on skewers with fresh onions served
-              sizzling.
-            </div>
-          </div>
-          <div class="price">£8.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Shashlik</div>
-            <div class="desc">
-              Diced chicken char-roasted in the tandoor with onions, tomatoes,
-              peppers and mushrooms.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Roshan Ada Murgh</div>
-            <div class="desc">
-              Sliced spring tandoori chicken pan fried with onion, peppers,
-              fresh garlic and ginger.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Champ-e-Peshwari Main</div>
-            <div class="desc">
-              Tandoori lamb chops marinated in a blend of spices.
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Tandoori Chicken Main</div>
-            <div class="desc">
-              Chicken breast and leg on the bone, marinated in Lal Akash's
-              special spices and char-grilled perfection. Served with salad.
-            </div>
-          </div>
-          <div class="price">£8.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Khyberi Jheenga Main</div>
-            <div class="desc">
-              Whole tiger prawns, lightly marinated in yoghurt, spiced and
-              grilled in tandoor.
-            </div>
-            <p><span class="allergy">Allergy: </span> dairy</p>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Hasina Lamb</div>
-            <div class="desc">
-              Tender lamb chunks kept in a special marinade, cooked with sliced
-              peppers, tomatoes, fresh onion and mushrooms.
-            </div>
-            <p><span class="allergy">Allergy: </span> dairy</p>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Salmon Diwala Main</div>
-            <div class="desc">
-              Fresh Scottish salmon tikka marinated in yoghurt and spices,
-              glazed golden in the clay oven.
-            </div>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Tandoori ki Shaan (Mixed Grill)</div>
-            <div class="desc">
-              An amazing selection of tandoori delicacies, including tandoori
-              chicken, chicken tikka, lamb tikka, Seekh kebab tandoori king
-              prawn.
-            </div>
-          </div>
-          <div class="price">£13.95</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Hall Fame Special</h2>
-
-        <div class="item2">
-          <div class="title">BEGUM BAGAAR</div>
-          <div class="desc">
-            Garlic and ginger gently browned in ghee then fried with added spice
-            and homemade yoghurt
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Begum Bagaar</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Begum Bagaar</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-        <div class="item2">
-          <div class="title">SOBUCH JALFREZI</div>
-          <div class="desc">
-            Tandoori chicken / lamb tikka cooked in special coriander chutney,
-            coconut butter with a combination of peppers, onions and green
-            chillies.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Sobuch Jalfrezi</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Sobuch Jalfrezi</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-        <div class="item2">
-          <div class="title">KABULI</div>
-          <div class="desc">
-            cooked in a rich dry sauce of yoghurt, tomatoes, selected herbs and
-            spices, with a fantastic blend of homemade pickles.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Kabuli</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Kabuli</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Nalli Gosht Rogan</div>
-            <div class="desc">
-              Tender baby lamb shan cooked in the traditional Rogan Josh spices
-              and masala
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">King Prawn Sizzlers</div>
-            <div class="desc">
-              King prawn cooked in medium spiced onion, pepper and tomato sauce.
-              Sizzled with a touch of brandy.
-            </div>
-          </div>
-          <div class="price">£16.95</div>
-        </div>
-        <div class="item2">
-          <div class="title">NEPAL KALIO</div>
-          <div class="desc">
-            A hot fiery dish of chilli seeds and fresh spice with chicken and
-            diced potatoes in a sauce blended with homemade yoghurt.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Nepal Kalio Chicken</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Nepal Kalio Lamb</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Gosht-ke-lazeez</div>
-            <div class="desc">
-              Marinated lamb cooked with fresh chillies and spring onions in a
-              hot, sweet and sour sauce
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Batak Raja</div>
-            <div class="desc">
-              Duck breast cooked over burning charcoal in the tandoor,
-              delicately sliced and served on a pool of delicious masala sauce.
-            </div>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Kadhai Jhinga</div>
-            <div class="desc">
-              Pan-fried whole jumbo prawns with assorted bell peppers and
-              onions.
-            </div>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Jhinga Delight</div>
-            <div class="desc">
-              King prawns cooked over charcoal and then prepared in the Lal
-              Akash's secret sauce.
-            </div>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Sizzlers</div>
-            <div class="desc">
-              Chicken cooked in medium spiced onion, pepper and tomato sauce.
-              Sizzled with a touch of brandy.
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Sizzlers</div>
-            <div class="desc">
-              Lamb cooked in medium spiced onion, pepper and tomato sauce.
-              Sizzled with a touch of brandy.
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Prawn Sizzlers</div>
-            <div class="desc">
-              Prawn cooked in medium spiced onion, pepper and tomato sauce.
-              Sizzled with a touch of brandy
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item2">
-          <div class="title">PARSI DHANSAK</div>
-          <div class="desc">
-            Dhansak (originally a Persian dish) in the traditional style.
-            Chicken / lamb cooked in lentil based, hot sweet and sour sauce with
-            an over indulgence of fresh garlic.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Parsi Dhansak</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Parsi Dhansak</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <h2>Chefs Recommend</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Nepali Chara</div>
-            <div class="desc">
-              Barbecued chicken cooked with almond and slices of mango in mild
-              creamy sauce.
-            </div>
-            <p><span class="allergy">Allergy:</span> dairy</p>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Bhedako Masu</div>
-            <div class="desc">
-              Traditional village style boneless lamb curry cooked with
-              fenugreek and cinnamon.
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Bheda Farsi Mismas</div>
-            <div class="desc">
-              Tender pieces of lamb cooked with pumpkins in traditional spices.
-              Created by Gurkhas of British Raj in India.
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Magic Momo (10pcs)</div>
-            <div class="desc">
-              Steamed minced meat dumplings served with Himalayan tomato relish.
-            </div>
-            <p><span class="allergy">Allergy: </span>dairy</p>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Nepal Hansh Bhutuwa</div>
-            <div class="desc">
-              Marinated breast of duck cooked with green herbs, spices & spring
-              onions
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Nadi Machhali</div>
-            <div class="desc">
-              Marinated white fish cooked with special Nepalese spices, mustard,
-              ginger, fresh herbs and a touch of yoghurt. The villager's recipe
-              from Modi river in Nepal.
-            </div>
-          </div>
-          <div class="price">£12.95</div>
-        </div>
-
-        <div class="item2">
-          <div class="title">GURKHALI</div>
-          <div class="desc">
-            Boneless chicken / lamb marinated wit Nepalese herbs and spices
-            touched with yoghurt and green chillies.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Gurkhali Chicken</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Gurkhali Lamb</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Chati Khukura</div>
-            <div class="desc">
-              Chicken cooked with fresh mushrooms and green peas in chef's
-              special spices, flavoured with green herbs
-            </div>
-            <p><span class="allergy">Allergy: </span>peanut</p>
-          </div>
-
-          <div class="price">£10.95</div>
-        </div>
-      </div>
-      <div class="section">
-        <h2>Tikka Special</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Chi Tk Masala</div>
-            <div class="desc">
-              Britain's most favorite curry. Tender pieces of chicken tikka,
-              cooked in our very own special aromatic smooth masala gravy made
-              from tomatoes.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Masala</div>
-            <div class="desc">
-              Britain's most favorite curry. Tender pieces of lamb tikka, cooked
-              in our very own special aromatic smooth masala gravy made from
-              tomatoes.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">King Prawn Tikka Masala</div>
-            <div class="desc">King Prawn in a mild creamy Tandoori sauce.</div>
-          </div>
-          <div class="price">£13.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Butter Chicken</div>
-            <div class="desc">
-              Pieces of char-grilled chicken cooked with fenugreek, in a creamy
-              butter flavoured sauce
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Tikka Pasanda</div>
-            <div class="desc">
-              Chicken with almonds and sultanas in a creamy red wine sauce.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Pasanda</div>
-            <div class="desc">
-              lamb with almonds and sultanas in a creamy red wine sauce.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Rezalla</div>
-            <div class="desc">
-              Lamb with onions, peppers, tomatoes and green chillies in a dark
-              rich sauce.
-            </div>
-          </div>
-          <div class="price">£9.95</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Balti</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Balti</div>
-
-            <p><span class="allergy">Allergy: </span>chilli,peanut,dairy</p>
-          </div>
-
-          <div class="price">£8.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">King Prawn Balti</div>
-
-            <p><span class="allergy">Allergy: </span>crustacean</p>
-          </div>
-
-          <div class="price">£12.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Balti</div>
-
-            <p><span class="allergy">Allergy: </span>peanut</p>
-          </div>
-
-          <div class="price">£9.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Balti</div>
-
-            <p><span class="allergy">Allergy: </span>dairy</p>
-          </div>
-
-          <div class="price">£9.95</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Tradition</h2>
-
-        <div class="item2">
-          <div class="title">KORMA</div>
-          <div class="desc">
-            Fresh cream sauce with very mild spices and coconut
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Korma</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Korma</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Korma</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Korma</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Korma</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Korma</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">BHUNA</div>
-          <div class="desc">
-            A dry rich sauce with fresh tomatoes, and sauteed onions.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Bhuna</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Bhuna</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Bhuna</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Bhuna</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Bhuna</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Bhuna</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">CURRY</div>
-          <div class="desc">A simple thick sauce with mild Indian spices.</div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Curry</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Curry</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Curry</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Curry</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Curry</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Curry</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">DUPIAZA</div>
-          <div class="desc">
-            Cooked in onions, peppers, tomatoes flavoured spiced masala sauce.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Dupiaza</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Dupiaza</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Dupiaza</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Dupiaza</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Dupiaza</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Dupiaza</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">ROGAN</div>
-          <div class="desc">
-            Cooked in onions, peppers, tomatoes flavoured spiced masala sauce.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Rogan</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Rogan</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Rogan</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Rogan</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Rogan</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Rogan</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">ROGAN JOSH</div>
-          <div class="desc">
-            Your favorite meat delicately cooked in traditional masala.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Rogan Josh</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Rogan Josh</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Rogan Josh</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Rogan Josh</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Rogan Josh</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Rogan Josh</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">SAGWALA</div>
-          <div class="desc">
-            Cooked in onions, peppers, tomatoes flavoured spiced masala sauce.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Sagwala</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Sagwala</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Sagwala</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Sagwala</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Sagwala</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Sagwala</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">DHANSAK</div>
-          <div class="desc">
-            A hot, sweet and sour sauce with assorted lentils.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Dhansak</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Dhansak</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Dhansak</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Dhansak</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Dhansak</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Dhansak</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">MADRAS</div>
-          <div class="desc">
-            A hot, sweet and sour sauce with assorted lentils.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Madras</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Madras</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Madras</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Madras</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Madras</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Madras</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">VINDALOO</div>
-          <div class="desc">
-            A hot, sweet and sour sauce with assorted lentils.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Vindaloo</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Vindaloo</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Vindaloo</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Vindaloo</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Vindaloo</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Vindaloo</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">KASHMIRI</div>
-          <div class="desc">A creamy sauce with exotic fruits.</div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Kashmiri</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Kashmiri</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Kashmiri</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Kashmiri</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Kashmiri</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Kashmiri</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-
-        <div class="item2">
-          <div class="title">JALFREZI</div>
-          <div class="desc">
-            Hot sauce with onions, peppers, tomatoes and green chillies.
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Jalfrezi</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Jalfrezi</p>
-            <span class="varient-price">£9.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Prawn Jalfrezi</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">King Prawn Jalfrezi</p>
-            <span class="varient-price">£11.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Lamb Tikka Jalfrezi</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-          <div class="varient-area">
-            <p class="varietn-title">Chicken Tikka Jalfrezi</p>
-            <span class="varient-price">£10.95 </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Biryani</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£8.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">King Prawn Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£14.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Tikka Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£11.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Tikka Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£11.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Chicken Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lamb Biryani</div>
-            <div class="desc">
-              Biryani is a rich savoury rice dish cooked with various herbs and
-              spices. All dishes are served with special vegetable masala sauce.
-            </div>
-          </div>
-          <div class="price">£10.95</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2>Veg Main</h2>
-
-        <div class="item">
-          <div>
-            <div class="title">Paneer Labadar</div>
-            <div class="desc">
-              Cheese curd cooked in a very mild creamy nutty flavoured smooth
-              tomato sauce.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Sambhar</div>
-            <div class="desc">
-              Spicy dish of fresh cabbage and crisp cauliflower, pan fried with
-              spices.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="title">Shahi Kofta</div>
-            <div class="desc">
-              Delicious vegetable balls cooked in a rich and creamy sauce with
-              fresh spices.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Dal Makhani</div>
-            <div class="desc">
-              Slow cooked lentils, specialty of north west frontier.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Lal Akash Special Chat</div>
-            <div class="desc">
-              Spicy vegetables in a slightly hot, sweet and tangy sauce
-            </div>
-            <p><span class="allergy">Allergy: </span>dairy</p>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Chilli</div>
-            <div class="desc">
-              Assorted vegetables pan fried wit fresh green chillies, in a hot
-              and sour sauce.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Tapari</div>
-            <div class="desc">
-              Selection of fresh vegetables including pumpkin, potato and green
-              peas.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Dhansak</div>
-            <div class="desc">
-              Fresh vegetables in a lentil sauce with a hot, sweet and sour
-              combination.
-            </div>
-            <p><span class="allergy">Allergy: </span>peanut,dairy</p>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="title">Vegetable Cashew Korma</div>
-            <div class="desc">
-              Fresh seasonal mixed green vegetables cooked in cashew nut sauce
-              and flavoured with green cardamom.
-            </div>
-          </div>
-          <div class="price">£7.95</div>
-        </div>
-      </div>
-    </div>
+    </section>
     <!-- Menu section ends here  -->
 
     <!-- Start Footer Section -->
@@ -1580,5 +1930,46 @@
     <!-- Site All Jquery Js -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+      const listOfLi = document.querySelectorAll(".menu-tabs-block li");
+      const sections = document.querySelectorAll(".section");
+      const firstLi = document.querySelector(".menu-tabs-block li");
+      const firstSection = document.querySelector(".section");
+      const menuBtn = document.querySelector(".menu-button");
+      const menuList = document.querySelector(".left-side");
+      const crossBtn = document.querySelector(".cross_btn");
+
+      // Auto activate first section
+      if (firstLi && firstSection) {
+        firstLi.classList.add("active");
+        firstSection.classList.add("active");
+      }
+
+      // Handle tab clicks
+      listOfLi.forEach((li) => {
+        li.addEventListener("click", () => {
+          listOfLi.forEach((el) => el.classList.remove("active"));
+          li.classList.add("active");
+
+          sections.forEach((sec) => sec.classList.remove("active"));
+          const target = document.getElementById(li.dataset.target);
+          if (target) target.classList.add("active");
+
+          // On mobile, hide menu after click
+          if (window.innerWidth <= 767) {
+            menuList.classList.remove("show");
+          }
+        });
+      });
+
+      // Mobile menu open/close
+      menuBtn.addEventListener("click", () => {
+        menuList.classList.add("show");
+      });
+      crossBtn.addEventListener("click", () => {
+        menuList.classList.remove("show");
+      });
+    </script>
   </body>
 </html>
