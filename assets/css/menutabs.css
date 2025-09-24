@@ -221,6 +221,7 @@
   .menu-box {
     box-shadow: 0 0 0 0;
   }
+
   .menu-button,
   .cross_btn {
     display: block;
@@ -235,7 +236,6 @@
     left: 0;
     width: 75%;
     max-width: 280px;
-    margin-top: 104px;
     background: #fff;
     z-index: 1000;
     transform: translateX(-100%); /* hidden by default */
@@ -252,6 +252,10 @@
 
   .menu-button {
     display: inline-block;
+  }
+
+  .menu-tabs-block > li {
+    padding: 4px;
   }
 }
 
