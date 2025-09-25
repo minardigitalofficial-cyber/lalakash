@@ -475,6 +475,12 @@ h5 {
   border: 2px solid #fbc31b;
   transition: 0.3s;
 }
+
+/* Component  */
+.bold {
+  font-weight: bold;
+}
+
 /**************************************
  ** - 02 - Preloader Area CSS
  **************************************/
@@ -1833,7 +1839,6 @@ textarea:focus {
 /**************************************
  * 13.Blog Section Style
  *************************************/
-
 
 .truncate {
   display: -webkit-box; /* Required for line-clamp to work */
