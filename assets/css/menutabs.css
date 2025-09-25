@@ -129,10 +129,21 @@
   align-items: flex-start;
   padding: 10px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.item:nth-child(odd),
+.item2:nth-child(odd) {
+  background-color: #faf9ee;
+}
+
+.item:nth-child(even),
+.item2:nth-child(even) {
+  background-color: #f8f8f8;
 }
 
 .item2 {
-  padding: 10px 0;
+  padding: 20px;
 }
 
 .item2 .desc {

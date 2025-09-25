@@ -1833,6 +1833,18 @@ textarea:focus {
 /**************************************
  * 13.Blog Section Style
  *************************************/
+
+
+.truncate {
+  display: -webkit-box; /* Required for line-clamp to work */
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical; /* Required setting for line clamp */
+  overflow: hidden; /* Hides the extra text */
+  text-overflow: ellipsis; /* Adds "..." at the end */
+  line-height: 1.5em; /* Adjust as needed */
+  max-height: 4.5em; /* 3 lines * line-height */
+}
+
 .blog_img {
   height: 200px;
   object-fit: cover;
