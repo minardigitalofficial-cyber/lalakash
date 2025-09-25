@@ -1887,7 +1887,7 @@ textarea:focus {
 
 .image_container {
   overflow: hidden;
-  max-height: 350px;
+  max-height: 450px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
